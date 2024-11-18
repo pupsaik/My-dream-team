@@ -14,7 +14,7 @@ const Body = () => {
         <img src={"/andrii_avatar.jpg"} alt="Andrii Potikha" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andrii Potikha</h2>
-          <p style={styles.position}>Software Engineer</p>
+          <p style={styles.position}>Product Owner</p>
         </div>
       </div>
 
