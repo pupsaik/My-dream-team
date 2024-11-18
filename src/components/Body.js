@@ -4,6 +4,13 @@ const Body = () => {
   return (
     <main style={styles.body}>
       <div style={styles.card}>
+        <img src={"/dana's_avatar.jpg"} alt="Daniela Stan" style={styles.photo} />
+        <div style={styles.textContainer}>
+          <h2 style={styles.name}>Daniela Stan</h2>
+          <p style={styles.position}>QA Engineer</p>
+        </div>
+      </div>
+      <div style={styles.card}>
         <img src={"/stelmakh_yurii.png"} alt="Stelmakh Yurii" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Stelmakh Yurii</h2>
@@ -17,18 +24,16 @@ const Body = () => {
           <p style={styles.position}>Product Owner</p>
         </div>
       </div>
-
       <div style={styles.card}>
         <img src={"/andriy's-photo.png"} alt="Andriy Replianskiy" style={styles.photo} />
         <div style={styles.textContainer}>
           <h2 style={styles.name}>Andriy Replianskiy</h2>
-          <p style={styles.position}>Full Stack engineer</p>
+          <p style={styles.position}>Full Stack Engineer</p>
         </div>
       </div>
     </main>
   );
 };
-
 
 const styles = {
   body: {
