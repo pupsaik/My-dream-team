@@ -76,7 +76,7 @@ const styles = {
   },
   position: {
     fontSize: "0.9em",
-    color: "#6a0dad", // Same purple color as header
+    color: "darkslateblue", // Same purple color as header
     margin: "0.5em 0 0 0",
   },
 };
